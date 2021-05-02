@@ -1,5 +1,3 @@
-# CODE IS OUTDATED HAS MALFUNCTIONS
-
 from tkinter import *
 from tkinter import filedialog as fd
 from PIL import Image
@@ -11,6 +9,9 @@ def png_convert():
     if filename.endswith(".png"):
         error_prompt = Label(root, text="Same Image type", width=20, font=("bold", 15),fg="red")
         error_prompt.place(x=80, y=280)
+    elif filename == "":
+        error_prompt2 = Label(root, text="No file chosen", width=20, font=("bold", 15), fg="red")
+        error_prompt2.place(x=80, y=280)
     else:
         success_prompt = Label(root, text="Converted successfully", width=20, font=("bold", 15),fg="red")
         success_prompt.place(x=80, y=280)
@@ -22,9 +23,12 @@ def png_convert():
 
 def jpeg_convert():
     filename = fd.askopenfilename()
-    if filename.endswith(".jpeg"):
+    if filename.endswith(".jpg"):
         error_prompt = Label(root, text="Same Image type", width=20, font=("bold", 15), fg="red")
         error_prompt.place(x=80, y=280)
+    elif filename == "":
+        error_prompt2 = Label(root, text="No file chosen", width=20, font=("bold", 15), fg="red")
+        error_prompt2.place(x=80, y=280)
     else:
         success_prompt = Label(root, text="Converted successfully", width=20, font=("bold", 15),fg="green")
         success_prompt.place(x=80, y=280)
@@ -39,6 +43,9 @@ def pdf_convert():
     if filename.endswith("pdf"):
         error_prompt = Label(root, text="Same Image type", width=20, font=("bold", 15), fg="red")
         error_prompt.place(x=80, y=280)
+    elif filename == "":
+        error_prompt2 = Label(root, text="No file chosen", width=20, font=("bold", 15), fg="red")
+        error_prompt2.place(x=80, y=280)
     else:
         success_prompt = Label(root, text="Converted successfully", width=20, font=("bold", 15),fg="red")
         success_prompt.place(x=80, y=280)
