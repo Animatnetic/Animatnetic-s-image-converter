@@ -1,3 +1,5 @@
+# CODE IS OUTDATED HAS MALFUNCTIONS
+
 from tkinter import *
 from tkinter import filedialog as fd
 from PIL import Image
