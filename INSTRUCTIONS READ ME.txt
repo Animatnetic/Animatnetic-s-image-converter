@@ -1,0 +1,9 @@
+Hello!!! Thank you for downloading my application!
+It is simple but I am a beginner programmer. This programme is open source, you can use it to your heart's content!
+Make sure, whenever you downloaded this exe file that it is in a folder of your choice as the images you have converted will end up there along with wherever
+your exe file is. For example, if you left it at download's directory, all the images will go there and it will become a big
+mess. So instead I reccomend to put it in a folder somewhere in another area like the Pictures library or whatever u want. 
+
+Also, an extra thing to add, your image name will be changed to "conver_result.[image file type]"
+
+Keep in mind, if you want to convert png into jpeg and your png image has file transparency, nothing will jappen as jpeg can not support image transparecy.
